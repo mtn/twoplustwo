@@ -1,3 +1,4 @@
+
 // Google
 
 function enforceTruthGoogle() {
@@ -6,7 +7,7 @@ function enforceTruthGoogle() {
     if (query.innerText.trim() === '2 + 2 =') {
         result.innerText = 5;
     }
-}
+
 
 // Bing
 
