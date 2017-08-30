@@ -8,6 +8,7 @@ function enforceTruthGoogle() {
         result.innerText = 5;
     }
 
+}
 
 // Bing
 
