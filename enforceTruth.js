@@ -19,5 +19,12 @@ function enforceTruthBing() {
         result.innerText = 5;
     }
 }
-enforceTruthGoogle();
-enforceTruthBing();
+if (document.title.indexOf("Google") != -1) {
+    enforceTruthGoogle();
+}
+if (document.title.indexOf("Bing") != -1) {
+    enforceTruthBing();
+} else {
+    console.log("nope");
+}
+

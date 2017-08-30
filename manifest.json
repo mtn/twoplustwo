@@ -10,7 +10,8 @@
     "default_popup": "popup.html"
   },
   "content_scripts": [ {
-        "matches": ["http://www.google.com/*","https://www.google.com/*"],
+        "matches": ["http://www.google.com/*","https://www.google.com/*",
+        "http://www.bing.com/*","https://www.bing.com/*"],
         "js": ["enforceTruth.js"]
   } ],
   "permissions": [
